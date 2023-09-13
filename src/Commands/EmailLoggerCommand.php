@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Vic\EmailLogger\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class EmailLoggerCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'email-logger';
 
     public $description = 'My command';
 
