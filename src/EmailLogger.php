@@ -4,4 +4,5 @@ namespace Vic\EmailLogger;
 
 class EmailLogger
 {
+    
 }
