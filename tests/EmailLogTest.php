@@ -25,7 +25,7 @@ it('should log every outgoing email', function () {
                     new Address('sender@example.com'),
                     [
                         new Address('recipient1@example.com'),
-                        new Address('recipient2@example.com')
+                        new Address('recipient2@example.com'),
                     ]
                 )
             )
@@ -34,5 +34,5 @@ it('should log every outgoing email', function () {
 
     Log::shouldHaveReceived('info')
         ->once()
-        ->with("Email Sent");
+        ->with('Email Sent');
 });

@@ -23,6 +23,6 @@ class EmailSentListener implements ShouldQueue
      */
     public function handle(MessageSent $event): void
     {
-        Log::info("Email Sent");
+        Log::info('Email Sent');
     }
 }
