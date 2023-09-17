@@ -1,6 +1,6 @@
 {
     "name": "victorbriand/email-logger",
-    "description": "This is a Laravel package that writes a log for every outgoing email sent by the host application",
+    "description": "This is a Laravel package that writes a log for every outgoing email sent by the host application",
     "keywords": [
         "victorBriand",
         "laravel",
