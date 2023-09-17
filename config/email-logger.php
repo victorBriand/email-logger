@@ -1,6 +1,4 @@
 <?php
 
-// config for Vic/EmailLogger
-return [
-
-];
+// config for the Vic/EmailLogger
+return [];
